@@ -1,12 +1,22 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
 <html>
 <head>
-<title>Test HTML File</title>
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <script src="src/brython.js"></script>
+    <script src="src/brython_stdlib.js"></script>
 </head>
-<body>
 
-<p>This is a very very simple HTML file.</p>
+<body onload="brython()">
 
+    <button id="button8">click !</button>
+    <canvas id="zone8" width="200" height="50"
+        style="border-color:#000;border-style:solid;border-width:1px;margin-left:5em;">
+
+        </canvas>  
+
+    <script type="text/python" src="code/defcon_one.py"></script>
 </body>
+
+
+
 </html>
